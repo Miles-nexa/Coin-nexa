@@ -55,7 +55,7 @@ export default function SignUpPage() {
 
   return (
     // Page background
-    <main className="min-h-screen flex items-center justify-center bg-gray-900">
+    <main className="h-screen flex items-center justify-center bg-gray-900">
       {/* Card background */}
       <div className="w-[90%] max-w-md p-8 space-y-8 bg-slate-800 rounded-lg shadow-md">
         <div className="text-center">
