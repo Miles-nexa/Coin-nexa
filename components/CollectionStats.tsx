@@ -19,9 +19,9 @@ interface StatCardProps {
 
 const StatCard = ({ title, amount }: StatCardProps) => (
   // This is the card itself: dark background, rounded, with padding
-  <div className="bg-slate-800 rounded-xl p-4 shadow-lg">
+  <div className="bg-slate-800 rounded-xl p-3 shadow-lg">
     <h3 className="text-sm font-medium text-gray-400 mb-2">{title}</h3>
-    <p className="text-2xl font-semibold text-white tracking-tight">
+    <p className="text-xl font-semibold text-white tracking-tight">
       {formatCurrency(amount)}
     </p>
   </div>
