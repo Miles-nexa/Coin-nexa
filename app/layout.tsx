@@ -10,8 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bank Mockup Portfolio",
-  description: "A Next.js, Wagmi, and Tailwind CSS portfolio project.",
+  title: "Coin Nexa",
+  description:
+    "Coin Nexa - Manage, send, and grow your money with Coin Nexa. Digital banking at its peak.",
 };
 
 export default function RootLayout({
